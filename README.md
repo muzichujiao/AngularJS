@@ -2,7 +2,7 @@
 
 ## 定义
 ```
-app.restrict('helloWorld',function(){
+app.directive('helloWorld',function(){
   return {
     restrict:'AEC',
     replace:true,
